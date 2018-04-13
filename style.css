@@ -1,0 +1,74 @@
+.container {
+    height: 100vh;
+}
+
+.row {
+    min-height: 100vh;
+}
+
+
+li * {
+    float: left;
+}
+
+
+ul li input[type=text] {
+    display: none;
+}
+
+li > label {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 1px 0 0 11px
+}
+
+li, h3 {
+    clear: both;
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    float: right;
+}
+
+button.checkbox {
+    float: left;
+}
+
+button.edit, button.delete, button.save, button.checkbox {
+    margin: 8px auto;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+div .text-center label{
+    text-align: left;
+}
+
+li > input[type="text"] {
+    width: 400px;
+}
+
+#finished-tasks label {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+label {
+    width: 400px;
+    word-wrap: break-word;
+    word-break: normal; /* для Opera и FireFox */
+    word-break: break-word; /* для Chrome */
+}
